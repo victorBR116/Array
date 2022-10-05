@@ -5,7 +5,7 @@ $notas = [
 'João' => 8,
 'Maria'=> 9,
 'Judas' => 7,
-'Matheus'=> 6
+'Matheus'=> 6,
 ];
 
 krsort($notas);
