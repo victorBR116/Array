@@ -2,9 +2,9 @@
 //hashmap
 $array = [
 
-    1 => "um",
-    2 => "dois",
-    3 => "tres",
+    "um",
+    "dois",
+    "tres",
 
 ];
 
@@ -13,3 +13,5 @@ foreach($array as $numeral => $nomeNumero){
    
 }
 echo "Total:" . count($array) . PHP_EOL;
+
+// atualizar o php var_dump(array_is_list($array));
