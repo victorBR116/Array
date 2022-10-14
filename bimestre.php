@@ -10,9 +10,13 @@ $notasBimestre1 = [
 
 $notasBimestre2 = [ 
 'João' => 8,
-'Maria'=> 9,
 'Judas' => 7,
 'Matheus'=> 10,
 ];
 
-var_dump(array_diff_key($notasBimestre1, $notasBimestre2));
+$alunosFaltantes = array_diff_key($notasBimestre1, $notasBimestre2);
+$nomeAluno = array_keys($alunosFaltantes);
+$notasAlunos = array_values($alunosFaltantes);
+
+var_dump(array_combine($notasAlunos, $nomeAluno));
+var_dump(array_flip($alunosFaltantes));
