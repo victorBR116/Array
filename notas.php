@@ -4,7 +4,7 @@ $notas = [
 'Gustavo' => 10, 
 'João' => 8,
 'Maria'=> 9,
-'Judas' => 7,
+'Judas' => 6,
 'Matheus'=> 6,
 ];
 
